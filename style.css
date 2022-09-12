@@ -134,7 +134,6 @@ a {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-fill-color: transparent;
 }
 
 .main_logo {
@@ -191,7 +190,7 @@ a {
   display: flex;
   align-items: flex-end;
 }
-.profile_button button {
+.edeit_button {
   width: 153px;
   height: 32px;
   border-radius: 4px;
@@ -214,6 +213,288 @@ a {
   padding-bottom: 15px;
 }
 
+.about_section span {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 55px;
+  color: rgba(40, 54, 90, 0.8);
+  margin-right: 30px;
+}
+
+.about_section h6 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  margin-top: 15px;
+
+  color: rgba(40, 54, 90, 0.8);
+}
+
 .about_me {
   margin-top: 106px !important;
+}
+
+/* .modal-body input {
+  width: 470px;
+  height: 42px;
+  border: 1px solid #00c7ff;
+  border-radius: 2px;
+  margin-top: 12px;
+  margin-bottom: 28px;
+} */
+
+/*all course style start from here */
+
+.sub_menubar {
+  border-bottom: 0.6px solid #367cff;
+  padding-top: 65px;
+}
+.sub_menubar ul {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  gap: 90px;
+  margin-bottom: 8px;
+}
+.sub_menubar li {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+.sub_menubar {
+  border-bottom: 0.6px solid #367cff;
+}
+.sub_menubar a {
+  text-decoration: none !important;
+  color: #28365a;
+  padding-bottom: 8px;
+}
+
+#active_menu {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  background: linear-gradient(180deg, #00c7ff 0%, #367cff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  border-bottom: 2.5px solid #367cff;
+}
+.my_library {
+  margin-left: 45px;
+}
+.course_details {
+  margin-top: 35px;
+  display: flex;
+  width: 932px;
+  height: 171px;
+
+  background: #ffffff;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+}
+.course_details img {
+  width: 232px;
+  height: 171px;
+  filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 12px 0px 0px 12px;
+}
+.course_info {
+  padding: 16px 20px 16px 20px;
+}
+.course_info img {
+  width: 12.8px;
+  height: 11.8px;
+  border-radius: 0.5px;
+  filter: none !important;
+}
+.about_course {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 33px;
+}
+.about_course span {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.01em;
+  color: rgba(40, 54, 90, 0.8);
+}
+.about_course img {
+  width: 8px;
+  height: 8px;
+  margin-right: 7px;
+}
+#first_span_gap {
+  margin-left: 50px;
+}
+#secend_span_gap {
+  margin-left: 28px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+.course_info h6 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  color: rgba(0, 0, 0, 0.8);
+  margin-bottom: 6px;
+}
+.course_info p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.02em;
+  color: #28365a;
+}
+
+.course_info_reting {
+  margin-bottom: 5px !important;
+  color: #ffa873;
+}
+.instructor_name {
+  margin-top: 9px !important;
+  margin-bottom: 5px !important;
+}
+
+.login_main_container {
+  width: 500px;
+  margin: auto;
+  margin-top: 126px;
+}
+.login_main_container h4 {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+  text-align: center;
+  margin-bottom: 60px;
+  color: #28365a;
+}
+.login_main_container label {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 13px;
+  color: #28365a;
+}
+.login_main_container input {
+  width: 100%;
+  height: 44px;
+  padding: 9px 14px;
+  outline: none;
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+}
+.remember_forget_password {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  margin-bottom: 24px;
+}
+.or_login {
+  display: flex;
+  flex-direction: row;
+}
+.or_login:before,
+.or_login:after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 1px solid;
+  margin: auto;
+}
+.or_login:before {
+  margin-right: 10px;
+}
+.or_login:after {
+  margin-left: 10px;
+}
+
+label[for="Password"] {
+  margin-top: 25px;
+}
+.form_check_box {
+  display: flex;
+  align-items: center;
+}
+
+#CheckDefault {
+  width: 13px;
+  height: 13px;
+  margin-right: 7px;
+}
+.form_check_label {
+  font-weight: 500 !important;
+  font-size: 12px !important;
+  line-height: 26px !important;
+  margin-bottom: 0 !important;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.8) !important;
+}
+.remember_forget_password span {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 26px;
+  /* identical to box height, or 217% */
+  cursor: pointer;
+
+  background: linear-gradient(180deg, #367cff 0%, #367cff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+#login_button {
+  width: 100%;
+  height: 44px;
+  background: #000000;
+  border-radius: 2px;
+  border: none;
+  color: white;
+  margin-bottom: 60px;
+}
+
+.login_option {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 25px;
+  margin-bottom: 27px;
+}
+.login_option button {
+  width: 131px;
+  height: 36px;
+  background: none;
+  border: 1px solid #00c7ff;
+
+  border-radius: 2px;
+}
+.login_option img {
+  width: 30px;
+  height: 30px;
+}
+#facebook_button_icon {
+  width: 20px;
+  height: 20px;
+}
+
+#have_acount {
+  text-align: center;
+  margin-bottom: 100px !important;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 26px;
+
+  color: rgba(0, 0, 0, 0.8);
+}
+#login_ {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 26px;
+  /* identical to box height, or 186% */
+cursor: pointer;
+  color: #367cff;
 }
