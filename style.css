@@ -290,7 +290,6 @@ a {
   display: flex;
   width: 932px;
   height: 171px;
-
   background: #ffffff;
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
   border-radius: 12px;
@@ -439,9 +438,7 @@ label[for="Password"] {
   font-weight: 600;
   font-size: 12px;
   line-height: 26px;
-  /* identical to box height, or 217% */
   cursor: pointer;
-
   background: linear-gradient(180deg, #367cff 0%, #367cff 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -469,7 +466,6 @@ label[for="Password"] {
   height: 36px;
   background: none;
   border: 1px solid #00c7ff;
-
   border-radius: 2px;
 }
 .login_option img {
@@ -487,14 +483,309 @@ label[for="Password"] {
   font-weight: 500;
   font-size: 14px;
   line-height: 26px;
-
   color: rgba(0, 0, 0, 0.8);
 }
 #login_ {
   font-weight: 600;
   font-size: 14px;
   line-height: 26px;
-  /* identical to box height, or 186% */
-cursor: pointer;
+  cursor: pointer;
   color: #367cff;
+}
+
+/* wronge info style */
+.wrong_info_input {
+  border: 1px solid #f37048 !important;
+}
+
+.worning_message {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 26px;
+  color: #f37048;
+  margin-top: 10px !important;
+}
+
+.full_name {
+  margin-bottom: 25px;
+}
+.singup_recomendetion {
+  margin-top: 42px;
+  margin-bottom: 25px;
+}
+.singup_recomendetion label {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 26px;
+  color: rgba(0, 0, 0, 0.8);
+}
+.password_strong {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 26px;
+  color: rgba(0, 0, 0, 0.8);
+  margin-top: 6px !important;
+}
+.terms_condition {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 26px;
+  color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  margin: -40px 0 53px 0 !important;
+}
+.terms_condition span {
+  color: #367cff;
+  cursor: pointer;
+}
+
+/* course */
+.menu_navigate {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #28365a;
+  margin: 15px 0 57px 0 !important;
+}
+.main_content {
+  display: flex;
+  gap: 50px;
+}
+.img img {
+  width: 539px;
+  height: 353px;
+  background: linear-gradient(
+    180deg,
+    rgba(38, 38, 38, 0.15) 49.87%,
+    #000000 100%
+  );
+  border: 3px solid #ffffff;
+  border-radius: 12px;
+}
+.info h6 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  color: #000000;
+  margin-bottom: 35px;
+}
+.info p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.01em;
+  color: #28365a;
+  margin-bottom: 11px !important;
+}
+.info img {
+  width: 14.4px;
+  height: 14.4px;
+  border-radius: 0.5px;
+}
+.course_reting {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffa873;
+}
+.total_review_author {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  color: #28365a;
+}
+.course_language {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.01em;
+  color: #28365a;
+}
+.short_details {
+  margin-top: 30px;
+  width: 847px;
+  left: 317px;
+  top: 567px;
+  background: #ffffff;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
+  border-radius: 12px;
+}
+.shot_details_menu {
+  padding: 104px 118px 0 118px !important;
+  border-bottom: 0.6px solid #f37048;
+}
+.shot_details_menu ul {
+  display: flex;
+  gap: 100px;
+  padding: 0;
+  margin-bottom: 8px;
+}
+.shot_details_menu ul li {
+  list-style: none;
+}
+.shot_details_menu ul li a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #28365a;
+  padding-bottom: 6px;
+}
+#short_details_select_menu {
+  border-bottom: 3px solid #f37048;
+}
+.discription {
+  padding: 35px 60px;
+}
+.discription p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #28365a;
+}
+.discription h6 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  margin: 20px 0 14px 0;
+  color: rgba(0, 0, 0, 0.8);
+}
+.discription img {
+  width: 14px;
+  height: 14px;
+  border-radius: 1.5px;
+  margin-right: 4px;
+}
+.discription span {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.01em;
+  color: #28365a;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.course_details_info h6 {
+  margin: 35px 0 14px 0 !important;
+}
+.course_details_info img {
+  height: 11.083333015441895px;
+  width: 11.083333015441895px;
+  border-radius: 0px;
+  margin-right: 20px;
+}
+.course_details_info p {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 0.01em;
+  color: #28365a;
+}
+.higlight {
+  font-weight: 600 !important;
+  margin-bottom: 12px !important;
+}
+.section_mergin {
+  margin-bottom: 12px !important;
+}
+.course_content h6 {
+  margin: 35px 0 14px 0 !important;
+}
+.sub_info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.sub_info p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.01em;
+  color: rgba(40, 54, 90, 0.8);
+}
+.expand {
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  line-height: 26px !important;
+  color: #000000 !important;
+  margin-left: 32% !important;
+}
+.all_course_content {
+  width: 847px;
+  height: 1325px;
+  left: 317px;
+  top: 2061px;
+  padding: 25px 21px;
+  background: #ffffff;
+  border: 0.8px solid #28365a;
+  box-shadow: 3px 6px 12px rgba(0, 0, 0, 0.06);
+  border-radius: 12px;
+}
+.first_content {
+  width: 804px;
+  height: 185px;
+  left: 1143px;
+  top: 2085px;
+  background: #ffffff;
+  border: 1px solid #00c7ff;
+  box-shadow: 0px 0px 10px rgba(0, 199, 255, 0.25);
+  border-radius: 12px;
+}
+.hader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 199, 255, 0.15) 0%,
+    rgba(54, 124, 255, 0.15) 100%
+  );
+}
+.first_content_first img {
+  width: 61px !important;
+  height: 45px !important;
+  border-radius: 6px !important;
+  margin-right: 23px;
+}
+.first_content_first span {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  color: rgba(0, 0, 0, 0.8);
+}
+.hader img {
+  height: 14px;
+  width: 14px;
+  border-radius: 0px;
+}
+.secend_content_secend span {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.01em;
+
+  color: rgba(0, 0, 0, 0.8);
+}
+
+#devider {
+  margin: 0 13px;
+}
+.topics {
+  width: 804px;
+  height: 79px;
+  background: #ffffff;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.12);
+  border-radius: 12px;
+  margin-top: 12px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px;
+}
+.topics img {
+  height: 14px;
+  width: 14px;
+  border-radius: 0px;
 }

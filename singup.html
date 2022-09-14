@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Log in</title>
+    <title>Sing up</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta content="E-learning Platform" name="description" />
     <meta content="Azharul Islam" name="author" />
@@ -42,32 +42,40 @@
     </div>
 
     <div class="login_main_container">
-      <h4>Sign in to your account</h4>
+      <h4>Create your account</h4>
+
+      <label for="">Full Name</label><br />
+      <input class="full_name" type="text" placeholder="Enter your full name" />
+      <br />
 
       <label for="">Email or Mobile No</label><br />
       <input
+      class="wrong_info_input"
         type="text"
         placeholder="Enter your email or mobile number"
       />
-      <!-- <p class="worning_message">Please enter correct email</p> -->
 
-  
+      <br />
       <label for="Password">Password</label><br />
       <input
-        class="wrong_info_input"
+       
         type="text"
         placeholder="Enter your password"
       />
-      <p class="worning_message">Please enter correct password</p>
-      <div class="remember_forget_password">
-        <div class="form_check_box">
-          <input type="checkbox" id="CheckDefault" />
-          <label class="form_check_label" for=""> Remember me </label>
-        </div>
-        <span>Forget Password?</span>
+      <p class="password_strong">Strong</p>
+      <div class="singup_recomendetion">
+        <input type="checkbox" id="CheckDefault" />
+        <label for=""
+          >Send me special offers, personalized recommendations, and learning
+          tips.</label
+        >
       </div>
-      <button id="login_button">Login</button>
-      <p class="or_login">or login with</p>
+      <button id="login_button">Sign up</button>
+      <p class="terms_condition">
+        By signing up, your are agree to our <span>Terms of Use</span> and
+        <span>Privacy Policy</span>
+      </p>
+      <p class="or_login">or sign up with</p>
 
       <div class="login_option">
         <button>
